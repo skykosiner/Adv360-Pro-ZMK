@@ -35,7 +35,7 @@
             #binding-cells = <0>;
             bindings = <&kp PIPE>, <&kp GRAVE>;
 
-            mods = <(MOD_LSF|MOD_RSFT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         pkp_n1: plus_kp_n1 {
