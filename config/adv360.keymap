@@ -4,11 +4,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
 
-#define DVOARK 0
-#define KEYPAD 1
-#define FN 2
-#define MOD 3
-
 / {
     behaviors {
         #include "macros.dtsi"
@@ -40,7 +35,7 @@
             #binding-cells = <0>;
             bindings = <&kp PIPE>, <&kp GRAVE>;
 
-            mods = <(MOD_LSF|MOD_RSFT|MOD_LSFT)>;
+            mods = <(MOD_LSF|MOD_RSFT)>;
         };
 
         pkp_n1: plus_kp_n1 {
@@ -94,7 +89,7 @@
             #binding-cells = <0>;
             bindings = <&kp EQUAL>, <&kp KP_N6>;
 
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         rkp_n7: right_parenthesis_kp_n7 {
@@ -103,7 +98,7 @@
             #binding-cells = <0>;
             bindings = <&kp RIGHT_PARENTHESIS>, <&kp KP_N7>;
 
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         rkp_n8: right_brace_kp_n8 {
@@ -112,7 +107,7 @@
             #binding-cells = <0>;
             bindings = <&kp RIGHT_BRACE>, <&kp KP_N8>;
 
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         rkp_n9: right_bracket_kp_n9 {
@@ -121,7 +116,7 @@
             #binding-cells = <0>;
             bindings = <&kp RIGHT_BRACKET>, <&kp KP_N9>;
 
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         skp_n0: star_kp_n0 {
@@ -130,7 +125,7 @@
             #binding-cells = <0>;
             bindings = <&kp STAR>, <&kp KP_N0>;
 
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         eprcnt: excl_prcnt {
@@ -139,7 +134,7 @@
             #binding-cells = <0>;
             bindings = <&kp EXCL>, <&kp PRCNT>;
 
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         dgrave: dllr_grave {
@@ -148,7 +143,7 @@
             #binding-cells = <0>;
             bindings = <&kp DLLR>, <&kp GRAVE>;
 
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         ggrave: grave_grave {
@@ -157,7 +152,7 @@
             #binding-cells = <0>;
             bindings = <&kp GRAVE>, <&kp GRAVE>;
 
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         bhash: bslh_hash {
@@ -166,7 +161,7 @@
             #binding-cells = <0>;
             bindings = <&kp BSLH>, <&kp HASH>;
 
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         acaret: at_caret {
@@ -175,7 +170,7 @@
             #binding-cells = <0>;
             bindings = <&kp AT>, <&kp CARET>;
 
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
     };
 
