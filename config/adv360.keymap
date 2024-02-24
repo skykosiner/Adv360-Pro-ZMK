@@ -146,15 +146,6 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
-        ggrave: grave_grave {
-            compatible = "zmk,behavior-mod-morph";
-            label = "grave_grave";
-            #binding-cells = <0>;
-            bindings = <&kp GRAVE>, <&kp GRAVE>;
-
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-
         bhash: bslh_hash {
             compatible = "zmk,behavior-mod-morph";
             label = "bslh_hash";
