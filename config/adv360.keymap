@@ -87,7 +87,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "equal_kp_n6";
             #binding-cells = <0>;
-            bindings = <&kp EQUAL>, <&kp KP_N6>;
+            bindings = <&kp EQUAL>, <&kp N6>;
 
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
@@ -96,7 +96,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "right_parenthesis_kp_n7";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_PARENTHESIS>, <&kp KP_N7>;
+            bindings = <&kp RIGHT_PARENTHESIS>, <&kp N7>;
 
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
@@ -105,7 +105,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "right_brace_kp_n8";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_BRACE>, <&kp KP_N8>;
+            bindings = <&kp RIGHT_BRACE>, <&kp N8>;
 
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
@@ -114,7 +114,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "right_bracket_kp_n9";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_BRACKET>, <&kp KP_N9>;
+            bindings = <&kp RIGHT_BRACKET>, <&kp N9>;
 
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
@@ -123,7 +123,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "star_kp_n0";
             #binding-cells = <0>;
-            bindings = <&kp STAR>, <&kp KP_N0>;
+            bindings = <&kp STAR>, <&kp N0>;
 
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
@@ -141,7 +141,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "dllr_grave";
             #binding-cells = <0>;
-            bindings = <&kp DLLR>, <&kp GRAVE>;
+            bindings = <&kp DLLR>, <&kp TILDE>;
 
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
@@ -175,7 +175,7 @@
             bindings = <
 &pgrave     &pkp_n1   &lkp_n2    &lkp_n3     &lkp_n4    &akp_5  &kp C_VOL_UP                                                  &mo 2      &ekp_n6  &rkp_n7  &rkp_n8   &rkp_n9    &skp_n0  &eprcnt
 &kp TAB     &kp SEMI  &kp COMMA  &kp PERIOD  &kp P      &kp Y   &kp C_VOL_DN                                                  &none      &kp F    &kp G    &kp C     &kp R      &kp L    &bhash
-&kp LGUI    &kp A     &kp O      &kp E       &kp U      &kp I   &kp K_MUTE    &kp LCTRL   &kp LGUI      &kp RGUI   &kp RALT   &none      &kp D    &kp H    &kp T     &kp L      &kp S    &kp MINUS
+&kp LGUI    &kp A     &kp O      &kp E       &kp U      &kp I   &kp K_MUTE    &kp LCTRL   &kp LGUI      &kp RGUI   &kp RALT   &none      &kp D    &kp H    &kp T     &kp N      &kp S    &kp MINUS
 &kp LSHIFT  &kp SQT   &kp Q      &kp J       &kp K      &kp X                             &kp ESC       &kp PG_UP                        &kp B    &kp M    &kp W     &kp V      &kp Z    &kp RSHFT
 &mo 1       &dgrave   &kp CAPS   &kp LEFT    &kp RIGHT          &kp BSPC      &kp LSHIFT  &kp END       &kp PG_DN  &kp ENTER  &kp SPACE           &kp UP   &kp DOWN  &kp SLASH  &acaret  &mo 1
             >;
