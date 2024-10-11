@@ -171,6 +171,20 @@
     macros {
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        Escape_Left {
+            bindings = <&kp ESC>;
+            key-positions = <32 31>;
+        };
+
+        Escape_Right {
+            bindings = <&kp ESC>;
+            key-positions = <41 42>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
