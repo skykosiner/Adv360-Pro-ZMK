@@ -183,6 +183,16 @@
             bindings = <&kp ESC>;
             key-positions = <41 42>;
         };
+
+        Enter_Left {
+            bindings = <&kp ENTER>;
+            key-positions = <29 30 31 32>;
+        };
+
+        Enter_Right {
+            bindings = <&kp ENTER>;
+            key-positions = <44 43 42 41>;
+        };
     };
 
     keymap {
