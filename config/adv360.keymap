@@ -176,12 +176,12 @@
 
         Escape_Left {
             bindings = <&kp ESC>;
-            key-positions = <32 31>;
+            key-positions = <32 31 30>;
         };
 
         Escape_Right {
             bindings = <&kp ESC>;
-            key-positions = <41 42>;
+            key-positions = <41 42 43>;
         };
 
         Enter_Left {
